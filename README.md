@@ -1,4 +1,4 @@
-# Stakater Cluster Task for Sonarqube Scanning
+# Stakater Task for Sonarqube Scanning
 
 ## Local Development
 

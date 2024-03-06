@@ -1,2 +1,15 @@
-# sonarqube-scan-java
-A tekton task for sonarqube-scan-java
+# Stakater Task for Sonarqube Scanning
+
+## Local Development
+
+### Install
+
+```
+tilt up
+```
+
+### Teardown
+
+```
+tilt down
+```

@@ -85,7 +85,7 @@ spec:
           exit 128
         fi
     - name: sonar-scan
-      image: ghcr.io/stakater/pipeline-toolbox:v0.0.37
+      image: ghcr.io/stakater/pipeline-toolbox:v0.0.38
       workingDir: $(workspaces.source.path)
       command:
         - /bin/bash

@@ -5,7 +5,7 @@ kind: Task
 metadata:
   name: stakater-sonarqube-scan-java
   labels:
-    app.kubernetes.io/version: "0.0.2"
+    app.kubernetes.io/version: "0.0.3"
 spec:
   description: >-
     The following task can be used to perform static analysis on the source code
@@ -87,7 +87,7 @@ spec:
           exit 128
         fi
     - name: sonar-scan
-      image: ghcr.io/stakater/pipeline-toolbox:v0.0.37
+      image: ghcr.io/stakater/pipeline-toolbox:v0.0.38
       workingDir: $(workspaces.source.path)
       command:
         - /bin/bash
